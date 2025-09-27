@@ -1,10 +1,10 @@
-import React, { use, useEffect, useState } from "react";
+import React, {  useEffect, useState } from "react";
 import * as fabric from "fabric";
 import { Canvas } from "fabric";
 import { IconButton } from "@mui/material";
 import type { SettingProps } from "../interface/common.interface";
 import ArrowUpwardOutlinedIcon from "@mui/icons-material/ArrowUpwardOutlined";
-import { DeleteOutlined, type Delete } from "@mui/icons-material";
+import { DeleteOutlined } from "@mui/icons-material";
 declare module "fabric" {
   interface Canvas {
     updateZIndices(): void;

@@ -36,7 +36,7 @@ export default function Signup() {
     if (!validate()) return;
     api
       .post("/users/register", form)
-      .then((res) => {
+      .then((_res) => {
         showAlert("Signup successful! Please login.", "success");
         navigate("/");
       })

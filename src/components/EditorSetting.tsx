@@ -1,4 +1,4 @@
-import React, { useState, useEffect, use } from "react";
+import React, { useState, useEffect} from "react";
 import type { SettingProps } from "../interface/common.interface";
 import { Input } from "@mui/material";
 export default function EditorSetting({ canvas }: SettingProps) {
